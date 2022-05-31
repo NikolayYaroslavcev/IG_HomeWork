@@ -1,0 +1,47 @@
+.project {
+  display: flex;
+  background: linear-gradient(90deg, #f598a8, #f6edb2);
+  padding: 10px;
+  align-items: flex-end;
+}
+.tail {
+  width: 15px;
+  height: 15px;
+  background: radial-gradient(
+    circle at 0 0,
+    rgba(0, 0, 0, 0) 15px,
+    rgb(187, 136, 152) 0
+  );
+}
+
+.container {
+  min-width: 150px;
+  max-width: 300px;
+  display: flex;
+  background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
+  gap: 10px;
+  flex-direction: column;
+  border-radius: 5px 5px 5px 0px;
+  padding: 10px;
+}
+.avatar {
+  margin: 0px 10px 0px 0px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.name {
+  font-size: 20px;
+  font-weight: 700;
+  max-width: 300px;
+  column-gap: 5px;
+}
+.message {
+  max-width: 300px;
+  column-gap: 5px;
+}
+
+.time {
+  display: flex;
+  justify-content: flex-end;
+}
